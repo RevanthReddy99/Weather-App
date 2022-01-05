@@ -19,21 +19,21 @@ app.get('/',(req,res) => {
     res.render('index',
     {
         title: 'Weather',
-        name:'Pavan'
+        name:'Yarram Revanth Reddy'
     }
     )
 })
 app.get('/about',(req,res) => {
     res.render('about',
     {
-        name:'Pavan',
+        name:'Yarram Revanth Reddy',
         title:'About this Page'
     })
 })
 app.get('/help',(req,res) => {
     res.render('help',
     {
-        name:'Pavan',
+        name:'Yarram Revanth Reddy',
         title:'Help Page'
     }
     )
@@ -75,7 +75,7 @@ app.get('*',(req, res) =>{
     res.render('404',
     {
         description:'ERROR PAGE!!!',
-        name:'Pavan'
+        name:'Yarram Revanth Reddy'
     }
     )
 })
